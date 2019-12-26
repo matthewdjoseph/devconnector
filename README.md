@@ -1,0 +1,1 @@
+This is a social networking app for music producers to work together and create a collaborative environment.
