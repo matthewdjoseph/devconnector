@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://matt123:matt123@beatconnector-y84ml.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken"
+    "jwtSecret": "mysecrettoken",
+    "youtubeClientId": "877829477622-g1hkisors5jaisht97gsa7g1qd8q6aqo.apps.googleusercontent.com",
+    "youtubeSecret": "Fk8i4wpVS7bdyXQk05lL7yO5"
 }
