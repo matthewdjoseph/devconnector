@@ -51,7 +51,7 @@ router.post(
         }
 
         const {
-            label,
+            company,
             website,
             location,
             bio,
@@ -69,7 +69,7 @@ router.post(
         const profileFields = {};
 
         profileFields.user = req.user.id;
-        if(label) profileFields.label = label;
+        if(company) profileFields.company = company;
         if(website) profileFields.website = website;
         if(location) profileFields.location = location;
         if(bio) profileFields.bio = bio;
@@ -178,7 +178,7 @@ router.put('/experience', [ auth, [
     check('title', 'Title is required')
         .not()
         .isEmpty(),
-    check('label', 'Label is required')
+    check('company', 'Company is required')
         .not()
         .isEmpty(),
         check('from', 'From date is required')
@@ -193,7 +193,7 @@ router.put('/experience', [ auth, [
 
     const {
         title,
-        label,
+        company,
         location,
         from,
         to,
@@ -203,7 +203,7 @@ router.put('/experience', [ auth, [
 
     const newExp = {
         title,
-        label,
+        company,
         location,
         from,
         to,

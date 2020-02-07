@@ -160,7 +160,7 @@ const CreateProfile = ({ createProfile, history }) => {
                 <Link className="btn btn-light my-1" to="/dashboard">Go Back</Link>
             </form>
       </Fragment>
-    )
+    );
 };
 
 CreateProfile.propTypes = {
