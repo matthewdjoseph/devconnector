@@ -1,5 +1,7 @@
 import { PROFILE_ERROR,
          GET_PROFILE,
+         GET_PROFILES,
+         GET_REPOS,
          CLEAR_PROFILE,
          UPDATE_PROFILE } from "../actions/types";
 
